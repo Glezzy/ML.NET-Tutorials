@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fzOGhGT9irjLuWkXLNCaD8F6rrHRccxikPljlJACO6inN4uE8xvodrXM93t14svYZoeTc/hmdkQFp5tBRr5lgg==",
+  "dgSpecHash": "6OEpUFzWASqCh+YKH5FsumgwQKyaArMSQgRAZrfpdDqfzMTyaZwYlaMr68b3xBjoS7HkAln27Czngk2iHqud9A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Greg\\source\\repos\\Categorize-Support-Issues\\Categorize-Support-Issues\\Categorize-Support-Issues.csproj",
+  "projectFilePath": "C:\\Users\\Greg\\ML.NET-Tutorials\\Categorize-Support-Issues\\Categorize-Support-Issues\\Categorize-Support-Issues.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Greg\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
     "C:\\Users\\Greg\\.nuget\\packages\\microsoft.ml\\1.5.2\\microsoft.ml.1.5.2.nupkg.sha512",

@@ -35,6 +35,17 @@ namespace Categorize_Support_Issues
 
         public static IEstimator<ITransformer> ProcessData()
         {
+            Console.WriteLine($"=============== Processing Data ===============");
+
+            // Here we are transforming the Title and Description columns into a numeric vector for each called TitleFeaturized and DescriptionFeaturized.
+            // Then we will append the featurization for both columns to the pipeline.
+            var pipeline = _mlContext.Transforms.Conversion.MapValueToKey(inputColumnName: "Area", outputColumnName: "Label")
+
+                            .Append(_mlContext.Transforms.Text.FeaturizeText(inputColumnName: "Title", outputColumnName: "TitleFeaturized"))
+                            .Append(_mlContext.Transforms.Text.FeaturizeText(inputColumnName: "Description", outputColumnName: "DescriptionFeaturized"))
+                            // Lastly we shall combine all the feature columns into the Features column using Concatenate()
+                            .Append(_mlContext.Transforms.Concatenate("Features", "TitleFeaturized", "DescriptionFeaturized"))
+
 
         }
     }

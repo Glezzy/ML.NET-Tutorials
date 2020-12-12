@@ -5508,11 +5508,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Greg\\source\\repos\\Categorize-Support-Issues\\Categorize-Support-Issues\\Categorize-Support-Issues.csproj",
+      "projectUniqueName": "C:\\Users\\Greg\\ML.NET-Tutorials\\Categorize-Support-Issues\\Categorize-Support-Issues\\Categorize-Support-Issues.csproj",
       "projectName": "Categorize-Support-Issues",
-      "projectPath": "C:\\Users\\Greg\\source\\repos\\Categorize-Support-Issues\\Categorize-Support-Issues\\Categorize-Support-Issues.csproj",
+      "projectPath": "C:\\Users\\Greg\\ML.NET-Tutorials\\Categorize-Support-Issues\\Categorize-Support-Issues\\Categorize-Support-Issues.csproj",
       "packagesPath": "C:\\Users\\Greg\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Greg\\source\\repos\\Categorize-Support-Issues\\Categorize-Support-Issues\\obj\\",
+      "outputPath": "C:\\Users\\Greg\\ML.NET-Tutorials\\Categorize-Support-Issues\\Categorize-Support-Issues\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Greg\\AppData\\Roaming\\NuGet\\NuGet.Config",
